@@ -1,0 +1,14 @@
+﻿<Window x:Class="J12001.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:J12001"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" FontSize="24">
+    <StackPanel>
+        <!--Input-->
+        <TextBox x:Name="txtInput">5</TextBox>
+        <Button x:Name="btnRun" Click="btnRun_Click">Run</Button>
+    </StackPanel>
+</Window>
